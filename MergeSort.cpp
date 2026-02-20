@@ -2,8 +2,8 @@
 using namespace std;
 
 void merge(int arr[],int left,int mid,int right){
-    int n1=mid-left+1;//size of left half
-    int n2=right-mid;//size of right half
+    int n1=mid-left+1; // size of left half
+    int n2=right-mid; //  size of right half
 
     //Create temperoray arrays
     int L[n1],R[n2];
@@ -90,3 +90,4 @@ void merge(int arr[],int left,int mid,int right){
 
 
 
+https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
